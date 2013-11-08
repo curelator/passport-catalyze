@@ -1,0 +1,43 @@
+{
+  "name": "passport-catalyze",
+  "version": "0.1.0",
+  "description": "Catalyze.io authentication strategy for Passport.",
+  "author": {
+    "name": "Gabriel Boucher",
+    "email": "solidgumby@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curelator/passport-catalyze.git"
+  },
+  "bugs": {
+    "url": "http://github.com/curelator/passport-catalyze/issues"
+  },
+  "main": "./lib/passport-catalyze",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport": "~0.1.1"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "local",
+    "auth",
+    "authn",
+    "authentication"
+  ]
+}
