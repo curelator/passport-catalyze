@@ -16,7 +16,8 @@
   "main": "./lib/passport-catalyze",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport": "~0.1.1"
+    "passport": "~0.1.1",
+    "calatyze-node": "git+ssh://git@github.com:curelator/catalyze-node.git"
   },
   "devDependencies": {
     "vows": "0.6.x"
